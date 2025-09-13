@@ -1,0 +1,33 @@
+*{
+    margin:0;
+}
+.navbar{
+    padding:20px;
+    background-color:rgb(57, 63, 73);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color:white;
+}
+.left i{
+    font-size: 20px;
+}
+.right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.search{
+    display: flex;
+}
+.search button{
+    background-color: blue;
+    outline: none;
+    border: none;
+}
